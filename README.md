@@ -7,9 +7,54 @@ It provides a detailed analysis of hotel attributes, amenities, and service qual
 ---
 
 ## 🛠 Technologies
-- **Power BI** — Dashboard creation, visualization, DAX measures  
-- **Excel** — Raw data storage and optional data cleaning  
-- **Power Query** — Data transformation (if applied)
+
+1. Data Collection & Preparation Layer
+
+-Raw Data Gathering
+Collecting hotel data including locations, amenities, and service quality.
+Data received as structured tables suitable for analysis.
+
+-Excel
+Used for storing raw data, initial formatting, and optional basic cleaning
+(checking duplicates, fixing missing values, etc.).
+
+2. Data Management Layer
+
+-SQL (Optional Enhancement)
+SQL can be used for:
+
+-Managing large datasets
+
+-Performing filtering, grouping, or joining tables
+
+-Preparing data before importing into Power BI
+(Note: This step is optional but recommended for scalable projects.)
+
+3. Data Transformation Layer
+
+-Power Query
+Used inside Power BI for transforming data:
+
+Cleaning dataset
+
+Standardizing formats
+
+Creating additional calculated columns
+
+Merging/transforming tables before loading into the data model
+
+4. Visualization & Analytics Layer
+
+-Power BI
+Used for:
+
+Building the dashboard
+
+Creating relationships and data model
+
+Designing interactive report pages
+
+Writing DAX measures for deeper analytics
 
 ---
 
